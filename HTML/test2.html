@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>BSF group assignment</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			table {
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+			td,th {
+				border: 1px solid black;
+				padding: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<img src="welcome.jpeg" width="300">
+		<ol>
+			<li>Cathy Leung</li>
+			<li>Susanna Wong</li>
+			<li>Angela Yu</li>
+		</ol>
+		<a href="http://mybsf.org"> BSF Home Site></a>
+		<table>
+			<thead>
+				<th>Name</th>
+				<th>Current Group Leader</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Mary So</td>
+					<td>Cathy Leung</td>
+				</tr>
+				<tr>
+					<td>Delia Ng</td>
+					<td>Susanna Wong</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<form>
+			<input type="text" placeholder="Full Name" name="name">
+			<input name="password" type="password" placeholder="Password">
+			<input type="submit">
+			<input name="Current Group leader" list="gl" placeholder="Group Leaders">
+			<datalist id="gl">
+				<option value="Cathy Leung">
+				<option value="Susanna Wong">
+				<option value="Angela Yu">
+			</datalist>
+		</form>
+	</body>
+</html>
